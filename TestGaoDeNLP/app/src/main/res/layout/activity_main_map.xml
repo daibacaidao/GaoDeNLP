@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text1"
+        android:text="请提前进入完整版设置【遥控器：设置 频道+-+-】，打开位置信息"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button1"
+        android:text="testRequestLocationUpdates[粗略网络定位]"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:text="text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button2"
+        android:text="testGetFromLocation【根据经纬度查询位置信息】"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:text="能查询地名(酒仙桥可以查到，但是直接搜乐视大厦不行)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button3"
+        android:text="testGetFromLocationName【根据地名查询位置信息】"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
